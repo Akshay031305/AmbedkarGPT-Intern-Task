@@ -100,6 +100,7 @@ rag-project/
 (Recommended: Python 3.10)
 
 conda create -n rag python=3.10 -y
+
 conda activate rag
 
 2. Install dependencies
