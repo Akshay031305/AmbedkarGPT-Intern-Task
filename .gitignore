@@ -1,0 +1,59 @@
+# ------------------------
+# Python cache & artifacts
+# ------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pkl
+*.db
+
+# ------------------------
+# Virtual environments
+# ------------------------
+venv/
+.env/
+.env*/
+.venv/
+
+# ------------------------
+# ChromaDB vector store
+# (auto-generated during build)
+# ------------------------
+chroma_db/
+chroma_db/*
+chroma/
+index/
+*.sqlite3
+
+# ------------------------
+# Ollama model cache
+# ------------------------
+~/.ollama/
+ollama/
+ollama_models/
+
+# ------------------------
+# OS / Editor files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# ------------------------
+# Application-specific
+# ------------------------
+# If you add uploads later:
+uploads/
+temp/
+cache/
